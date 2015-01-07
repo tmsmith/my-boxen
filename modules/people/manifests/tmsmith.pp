@@ -7,17 +7,19 @@ class people::tmsmith {
   include firefox
   include hipchat
   include mplayerx
+  include spotify
   
   # Menubar Applications
   include caffeine
   include dropbox
+  include googledrive
   include sizeup
 
   # Development Tools
   include github_for_mac
   include gitx::dev
   include iterm2::stable
-  include java
+  #include java
   include sequel_pro
   include sublime_text
   include atom
