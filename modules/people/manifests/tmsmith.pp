@@ -1,13 +1,14 @@
 class people::tmsmith {
 
   # Applications
-  include adium
   include chrome::canary
   include chrome::dev
   include firefox
   include hipchat
   include mplayerx
   include spotify
+  include vmware_fusion
+  include keepassx
   
   # Menubar Applications
   include caffeine
@@ -23,6 +24,7 @@ class people::tmsmith {
   include sequel_pro
   include sublime_text
   include atom
+  include dash
 
   # OS X Configuration
   osx::recovery_message { "If this Mac is found, please call Thad": }
